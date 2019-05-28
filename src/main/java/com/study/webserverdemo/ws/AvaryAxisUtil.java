@@ -76,7 +76,6 @@ public class AvaryAxisUtil {
 
     public static String webServicesToCRM(String method, Object[] parms) {
 
-//        String endPoint ="szecpw014.eavarytech.com:8001/WebServiceForSZ/Service1.asmx";
         String endPoint = "http://localhost:9999/test/hello";
         try {
             Service service = new Service();
